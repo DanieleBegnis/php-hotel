@@ -40,14 +40,6 @@ $hotels = [
 
 ];
 
-/* $isThereParking;
-
-if ($hotel['parking'] = true) {
-    $isThereParking = 'sì';
-}  else {
-    $isThereParking = 'no';
-} */
-
 ?>
 
 
