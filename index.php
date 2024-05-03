@@ -77,7 +77,7 @@ if ($hotel['parking'] = true) {
                 <tr>
                     <th scope="row"><?php echo $hotel ['name'] ?></th>
                     <td><?php echo $hotel ['description'] ?></td>
-                    <td><?php echo $hotel ['parking'] ?></td>
+                    <td><?php echo $hotel ['parking'] ? 'si' : 'no'; ?></td>
                     <td><?php echo $hotel ['vote'] ?></td>
                     <td><?php echo $hotel ['distance_to_center'] ?></td>
                 </tr>
